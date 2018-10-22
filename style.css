@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(224, 214, 214);
+    font-family: 'Krub', sans-serif;
+}
+
+.h2 {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.layout-header {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.layout__main {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.layout__footer {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    min-height: 292px;
+    max-height: 500px;
+}
